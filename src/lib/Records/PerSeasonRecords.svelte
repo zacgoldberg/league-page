@@ -61,7 +61,7 @@
                 }
 
                 const fpts = round(season.fpts);
-                const fptsPerGame = round(season.fptsPerGame);
+                const fptsPerGame = round(season.fptsPerGame)*2;
 
                 // add season-long scoring record
                 yearsObj[season.year].seasonLongRecords.push({
